@@ -18,7 +18,7 @@ const useStyles = makeStyles(() => ({
         height: 200,
         display: 'flex',
         flexDirection: 'column',
-        paddingTop: 9,
+        paddingTop: 40, 
         justifyContent: 'space-around',
         fontFamily: 'Montserrat'
     },
