@@ -52,7 +52,7 @@ const ButtonLinks = () => {
             </Button> 
             <Button variant='' style={{ display: '', paddingTop: '15px' }} > 
                 <a onClick={toggleTheme}>  
-                    { isDark ? <NightlightIcon sx={{ marginTop: 0 }}  />  : <LightModeIcon /> }
+                    { isDark ? <NightlightIcon sx={{ marginTop: 0 }}  />  : <LightModeIcon /> } 
                 </a>
             </Button>
 
