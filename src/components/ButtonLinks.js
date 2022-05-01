@@ -14,11 +14,12 @@ const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
             margin: theme.spacing(1),
+            fontWeight: 'bold'
         },
     }, 
 }));
 
-const ButtonLinks = () => { 
+const ButtonLinks = () => {  
 
     const classes = useStyles();
 

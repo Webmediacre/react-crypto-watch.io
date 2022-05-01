@@ -7,22 +7,22 @@ import { createContext, useState, useEffect } from 'react';
 const themes = {
     dark: { // default
         backgroundColor: 'black',
-        color: 'white',
+        color: '#f7931a'
     },
-    light: {
-    backgroundColor: 'white',
-    color: 'black',
+    light: { 
+        backgroundColor: '#14161a',
+        color: '#f7931a'
     }
 }; 
-
+ 
 export const ThemeContext = createContext(); // to be access by children
 
 // provider provides context to the whole app
 // children lives in index.js chilren are components to be rendered
-export const ThemeProvider = ({ children} ) => {
+export const ThemeProvider = ({ children } ) => {
 
     //  by default, we have a light theme
-    const [ isDark, setIsDark ] = useState(true);   
+    const [ isDark, setIsDark ] = useState(true);      
 
     // set theme based on 'isDark' teriary operator
     const theme = isDark ? themes.dark : themes.light;
