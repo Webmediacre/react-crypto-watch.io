@@ -39,7 +39,7 @@ function App() {
         <Routes>
             <Route index path='/*' element={<HomePage/>}/> 
             <Route path='/Newsfeeds' element={<Newsfeeds/>}/>   
-            <Route path='/KnownledgeBase' element={<KnownledgeBase/>}/>  
+            <Route path='/knownledgebase' element={<KnownledgeBase/>}/>    
             <Route path='/coins/:id' element={<CoinPage/>}/>   
         </Routes> 
         <Footer /> 

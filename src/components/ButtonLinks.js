@@ -39,7 +39,7 @@ const ButtonLinks = () => {
             <Button variant='outlined' style={{ display: 'none' }} disabled>
                 Disabled
             </Button>   
-            <Button variant='' style={{ display: '', color: '#f7931a' }} color="primary" href='KnownledgeBase'> 
+            <Button variant='' style={{ display: '', color: '#f7931a' }} color="primary" href='/knownledgebase'> 
                 KnowledgeBase
             </Button> 
             <Button variant='' style={{ display: '', color: '#f7931a'  }} color="primary" href='https://opensea.io/assets?search[query]=Larry%20Soundz' target='_blank'> 
