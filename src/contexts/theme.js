@@ -22,7 +22,7 @@ export const ThemeContext = createContext(); // to be access by children
 export const ThemeProvider = ({ children} ) => {
 
     //  by default, we have a light theme
-    const [ isDark, setIsDark ] = useState(false);
+    const [ isDark, setIsDark ] = useState(true);   
 
     // set theme based on 'isDark' teriary operator
     const theme = isDark ? themes.dark : themes.light;
