@@ -1,0 +1,29 @@
+
+.card{
+    width: 97%;  
+    display: block;
+    color: #000;
+    background-color: #fff;  
+    border-radius: 2px;
+    padding: 20px; 
+    margin-left: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.left { 
+    float: left;
+    background: #fff;
+}
+
+.right {
+    float: right;
+    background: #faeed9;
+    padding: 5px;
+}
+
+.symbol{
+    background: 0;
+    padding: 6px;
+    color:#f7931a;
+}
+
