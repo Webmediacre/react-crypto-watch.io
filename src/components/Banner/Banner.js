@@ -12,8 +12,8 @@ import Marquee from '../Marquee';
 
 const useStyles = makeStyles(() => ({
     banner: { 
-        backgroundImage: 'url(./banner1.jpg)',  
-    },
+        backgroundImage: 'url(./banner2.jpg)',  
+    }, 
     bannerContent: {
         height: 200,
         display: 'flex',
